@@ -1,0 +1,68 @@
+/* CSV Table Classes */
+TABLE.CSVTable {
+	font: 0.8em Verdana,Arial,Geneva,Helvetica,sans-serif;
+	border-collapse: collapse;
+	background-color: #CDCDCD;
+	width: 95%;
+}
+
+/* Header */
+TABLE.CSVTable THEAD TR {
+	background: #E8EDFF;
+	border: 1px solid #FFF;
+	cursor: pointer;
+}
+TABLE.CSVTable TH {
+	font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+	font-size: 1.2em;
+}
+TABLE.CSVTable THEAD tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+TABLE.CSVTable THEAD TH {
+	padding-right: 15px;
+	}
+TABLE.CSVTable TBODY TR{
+	text-align:center;
+	}
+/* Table Cells */
+TABLE.CSVTable TD, TABLE.CSVTable TH {
+	padding: 5px; 
+	text-align: center;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid transparent;
+}
+/* Default background color for rows */
+TABLE.CSVTable TR {
+	background: #F0F0F0;
+}
+/* Background color for odd rows */
+TABLE.CSVTable TR.odd {
+	background: #F9F9F9;
+}
+/* Hover color for all rows */
+TABLE.CSVTable TR:hover {
+	background: #E8EDFF;
+}
+
+/* Source code */
+.source {
+	background-color: #FAFAFA; border: 1px solid #999999
+}
+
+table.CSVTable thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.CSVTable thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.CSVTable thead tr .headerSortDown, table.CSVTable thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
+#myappr {
+	font-weight:bold;
+	}
+	
